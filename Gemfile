@@ -5,7 +5,7 @@ RAILS_5 = "5.0.0"
 
 gem 'bundler'
 
-gem 'rails', RAILS_5
+# gem 'rails', RAILS_5
 
 # DB
 gem 'mysql2'
@@ -14,13 +14,13 @@ gem "pg"
 
 # Asset template engines
 gem 'json'
-gem 'sass-rails', '4.0.5'
+gem 'sass-rails'
 gem 'execjs'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'haml'
 gem 'haml-rails'
-gem 'compass-rails', '2.0.0'
+gem 'compass-rails'
 gem 'coffee-rails'
 gem 'best_in_place'
 
@@ -34,18 +34,18 @@ gem "paperclip"
 gem 'cancancan'
 gem 'devise'
 gem 'devise_invitable'
-gem 'aws-sdk', '~> 1.64.0'
+gem 'aws-sdk'
 gem 'mechanize'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-openid'
-gem 'sinatra', :require => nil
+gem 'sinatra'
 gem 'sidekiq'
 gem 'sidekiq-failures'
 gem 'sidekiq-unique-jobs'
-gem 'sidekiq-rate-limiter', :require => 'sidekiq-rate-limiter/server'
-gem 'whenever', :require => false
+gem 'sidekiq-rate-limiter'
+gem 'whenever'
 gem 'kaminari'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
@@ -53,7 +53,7 @@ gem 'wepay-rails'
 gem 'fb_graph'
 gem 'twitter'
 gem 'state_machines-activerecord'
-gem 'paper_trail', '4.1.0'
+gem 'paper_trail'
 gem 'bitfields'
 gem 'bitly'
 gem 'wicked'
@@ -68,17 +68,17 @@ gem 'rack-ssl-enforcer'
 gem 'rubyzip'
 gem 'google-api-client'
 gem 'rubillow'
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers'
 gem 'acts-as-taggable-on'
 gem 'restforce'
 gem 'omniauth-salesforce'
 gem 'rest-client'
-gem 'yajl-ruby', require: 'yajl'
+gem 'yajl-ruby'
 gem 'redis-objects'
 gem 'roo'
 gem 'roo-xls'
-gem 'simple_token_authentication', '~> 1.0'
-gem 'email_validator', require: 'email_validator/strict'
+gem 'simple_token_authentication'
+gem 'email_validator'
 gem 'charlock_holmes'
 gem 'country_select'
 gem 'react-rails'
@@ -91,7 +91,7 @@ gem 'simple_form'
 gem 'capistrano'
 gem 'resque'
 gem 'jammit' #packaging library
-gem 'active_merchant' # e-commerce library
+# gem 'active_merchant' # e-commerce library
 gem 'eventmachine' # used for network communications
 gem 'chef' # server management
 
@@ -103,7 +103,7 @@ gem "sentry-raven"
 gem 'activesupport-json_encoder'
 gem 'newrelic_rpm'
 gem "rinku"
-gem 'gush', '~> 0.3.2'
+gem 'gush'
 
 # Elasticsearch
 gem 'searchkick'
@@ -123,7 +123,7 @@ gem 'database_cleaner'
 gem 'vcr'
 gem 'webmock'
 gem 'launchy'
-gem 'shoulda-matchers', '~> 2.8.rc2'
+gem 'shoulda-matchers'
 gem 'poltergeist'
 gem 'email_spec'
 gem 'rspec-retry'
